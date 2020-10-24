@@ -22,8 +22,7 @@ function setSize(x, y) {
 }
 
 function setup() {
-    let canvas = createCanvas(1280, 720);
-    canvas.parent('container');    
+    createCanvas(1280, 720).parent('container');    
 
     createButton('Clear').position(19, 19).mousePressed(clearScreen);
 
